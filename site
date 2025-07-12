@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ma Routine Quotidienne - Livre</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px;
+    background: #fafafa;
+    color: #333;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .cover-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+  }
+  .btn-primary {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  h1, h2 {
+    color: #222;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li::before {
+    content: "• ";
+    color: #007BFF;
+    font-weight: bold;
+  }
+  blockquote {
+    background: #eee;
+    padding: 10px 20px;
+    border-left: 5px solid #007BFF;
+    margin: 15px 0;
+  }
+  details summary {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Ma Routine Quotidienne</h1>
+  <img src="plage.jpg" alt="Photo à la plage" class="cover-img" />
+  <button class="btn-primary" onclick="alert('Découvrir maintenant !')">Découvrir maintenant</button>
+</header>
+
+<main>
+  <section>
+    <h2>Pourquoi lire ce livre ?</h2>
+    <ul>
+      <li>✅ Reconnecter avec soi</li>
+      <li>✅ Avancer malgré les doutes</li>
+      <li>✅ Se sentir compris(e)</li>
+      <li>✅ Transformer sa vie avec douceur</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Problèmes que le livre aborde :</h2>
+    <ul>
+      <li>Perte de contrôle</li>
+      <li>Sentiment d’échec</li>
+      <li>Manque de clarté</li>
+      <li>Stress quotidien</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Solutions apportées :</h2>
+    <ul>
+      <li>Routine réaliste, douce, sans pression</li>
+      <li>Petits pas concrets</li>
+      <li>Méthode flexible</li>
+      <li>Nouvelle relation au temps</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Ce que vous allez apprendre :</h2>
+    <ul>
+      <li>Pourquoi une routine bien pensée change tout</li>
+      <li>Comment bâtir sa journée idéale</li>
+      <li>Erreurs courantes à éviter</li>
+      <li>Techniques pour rester motivé(e)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Témoignages / Avis clients</h2>
+    <blockquote>
+      <p>⭐️⭐️⭐️⭐️⭐️ – Claire M.<br>Ce livre m’a vraiment aidée à structurer mes journées. Les conseils sont simples mais très efficaces, et j’ai enfin réussi à intégrer une vraie routine sans me sentir prisonnière d’un emploi du temps rigide.</p>
+    </blockquote>
+    <blockquote>
+      <p>⭐️⭐️⭐️⭐️ – Thomas L.<br>J’ai particulièrement aimé la partie sur les erreurs à éviter. Ça m’a permis de comprendre pourquoi mes anciennes routines ne fonctionnaient pas. Lecture claire, bien organisée, et motivante !</p>
+    </blockquote>
+    <blockquote>
+      <p>⭐️⭐️⭐️⭐️⭐️ – Inès B.<br>Une excellente lecture pour toute personne qui cherche à reprendre le contrôle de son quotidien. L’auteur parle avec bienveillance, sans jugement. Je recommande !</p>
+    </blockquote>
+    <blockquote>
+      <p>⭐️⭐️⭐️ – Julien R.<br>Certains conseils sont déjà connus, mais l’ensemble reste très utile, surtout pour les débutants dans l’organisation personnelle. Un bon rappel des bases, avec des exemples concrets.</p>
+    </blockquote>
+    <blockquote>
+      <p>⭐️⭐️⭐️⭐️⭐️ – Amina K.<br>Je ne pensais pas que créer une routine pouvait être aussi simple. Ce livre m’a ouvert les yeux et m’a donné des outils concrets pour transformer mes journées.</p>
+    </blockquote>
+  </section>
+
+  <section>
+    <h2>Commander maintenant</h2>
+    <img src="plage.jpg" alt="Couverture du livre" class="cover-img" />
+    <p><strong>Format :</strong> A5, numérique PDF - 16 pages</p>
+    <p><strong>Catégorie :</strong> Développement personnel / bien-être / Lifestyle</p>
+    <p><strong>Prix :</strong> 19,99 $</p>
+    <p><strong>Paiements acceptés :</strong> Interac, PayPal, Stripe, 4 versements</p>
+    <p><strong>Livraison :</strong> Rapide au Québec</p>
+    <button class="btn-primary">Ajouter au panier</button>
+    <button class="btn-secondary">Je commande mon exemplaire</button>
+    <button class="btn-primary">Je commence ma nouvelle routine maintenant</button>
+  </section>
+
+  <section>
+    <h2>À propos de l’autrice</h2>
+    <p>Écrit par Sylvia, passionnée d’organisation et développement personnel, qui partage ici une méthode simple, bienveillante et applicable dès aujourd’hui.</p>
+  </section>
+
+  <section>
+    <h2>FAQ</h2>
+    <details>
+      <summary>À qui s’adresse ce livre ?</summary>
+      <p>Ce livre s’adresse à toute personne souhaitant structurer ses journées de manière plus équilibrée et efficace : étudiants, parents, ou simplement ceux qui veulent sortir du chaos quotidien.</p>
+    </details>
+    <details>
+      <summary>Est-ce pour les débutants ?</summary>
+      <p>Oui, totalement. Il part des bases, explique les concepts clés d’une bonne routine et propose un accompagnement pas à pas pour construire sa propre organisation, même si on n’a jamais suivi de routine avant.</p>
+    </details>
+    <details>
+      <summary>Dois-je suivre à la lettre ?</summary>
+      <p>Non. Le but du livre est de t’aider à créer ta propre routine, adaptée à ton rythme, tes objectifs et ton mode de vie. La flexibilité est au cœur de l’approche proposée.</p>
+    </details>
+    <details>
+      <summary>Quand voit-on les résultats ?</summary>
+      <p>Cela dépend de chaque personne, mais en général, après 1 à 2 semaines de mise en place, on ressent déjà une amélioration en termes d’énergie, de clarté mentale et de gestion du temps.</p>
+    </details>
+    <details>
+      <summary>Contient-il des exercices ?</summary>
+      <p>Oui. Il inclut des exemples concrets, des conseils applicables au quotidien et des suggestions d’activités pour chaque moment de la journée.</p>
+    </details>
+    <details>
+      <summary>Parle-t-on que de productivité uniquement ?</summary>
+      <p>Non. Il traite aussi de bien-être, de repos, de temps pour soi, et de comment trouver un équilibre global dans la vie de tous les jours.</p>
+    </details>
+    <details>
+      <summary>Et si j’ai un horaire instable ?</summary>
+      <p>Absolument. Le livre aborde aussi le cas des emplois du temps changeants (famille, imprévus) et donne des astuces pour garder une routine flexible mais cohérente.</p>
+    </details>
+    <details>
+      <summary>Guide pratique ou théorique ?</summary>
+      <p>C’est un guide pratique, avec des explications simples, des exemples, et des conseils directement applicables pour passer à l’action.</p>
+    </details>
+    <details>
+      <summary>Et si je n’ai pas le temps de tout suivre ?</summary>
+      <p>Pas de souci ! Ce guide propose des options flexibles et des conseils même pour les journées chargées.</p>
+    </details>
+  </section>
+
+  <section>
+    <h2>Mentions légales & Politique de confidentialité</h2>
+    <p>Le site [Nom du site] est édité par : [Nom de la personne ou de l’entreprise] ...</p>
+    <!-- Remplace par ton texte complet des mentions légales et politique de confidentialité -->
+  </section>
+</main>
+
+<footer>
+  <p>🔒 Paiement sécurisé | 📞 Service client accessible | 🔁 Conditions de retour</p>
+  <p>© 2025 Ma Routine Quotidienne</p>
+</footer>
+
+</body>
+</html>
